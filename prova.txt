@@ -1,0 +1,26 @@
+assign [2 to x]
+       [5 to y];
+read(z,l);
+if(< z l){
+    assign [10 to j];
+    for(i := 0; < i 3)do{
+        for(< j 13)do{
+            print(j);
+            if(< x 10){
+                assign [80 to x];
+                print(x)
+            }else{
+                print(1)
+            }end;
+            assign [+(j,1) to j]
+        };
+        assign [+(i,1) to i];
+        print(i)
+    };
+    for(<= i y)do{
+        print(i);
+        assign [+(i,1) to i]
+    }
+}else{
+    print(z)
+}end
